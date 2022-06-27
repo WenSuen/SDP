@@ -1,0 +1,103 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+.field {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.field:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/login button */
+.loginbtn {
+  background-color: #0e1980;
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.loginbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: rgb(0, 0, 0);
+}
+
+/* Set a grey background color and center the text of the "Sign Up" section */
+.signup {
+  background-color: #0f4892;
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(153, 178, 202);
+  color: #ffffff;
+  font-size: 1.0em;
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+}
+
+.footer-basic {
+	border-top: groove;
+	padding-bottom: 40px;
+	color:#4b4c4d;
+	padding:0;
+	list-style:none;
+	text-align:center;
+	font-size:18px !important;
+	line-height:1.6;
+	margin-bottom:0;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.footer-basic a {
+	color:inherit;
+	text-decoration:none;
+	opacity:0.8;
+}
+
+.footer-basic :hover {
+	background-color: #b9b9b9;
+	opacity:1;
+}
+
+.copyright {
+	font-size:13px;
+	color:#aaa;
+	width: 110px;
+	}
+
+* {box-sizing:border-box}

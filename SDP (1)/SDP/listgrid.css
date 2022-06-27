@@ -1,0 +1,70 @@
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  /* background-color: #000; */
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card {  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-top: 10px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  background-color: #5e90af;
+  border-radius: 8px;
+} 
+
+.quantity {
+  border-radius: 6px;
+  width:50px;
+  height: 40px; 
+  text-align: center;
+}
+
+.goto_checkout {
+  border-radius: 6px;
+  height: 40px;
+  width: 120px;
+  float: right;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.goto_checkout:hover {
+  opacity: 0.8;;
+}
+
+.image {
+    height: 700px;
+    width: 1000px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+}
+
+#center {
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+  
